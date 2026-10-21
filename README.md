@@ -1,117 +1,94 @@
-# Cybersecurity Learning Path
+# My Cybersecurity Learning Path
 
-My ongoing roadmap as a BCA Cyber Security student working toward an entry-level cybersecurity role, such as Junior SOC Analyst.
+Welcome to my cybersecurity learning journey! I am documenting what I learn, the labs I practise, and the projects I build as I work toward an entry-level cybersecurity role.
 
 ## About Me
 - **Education:** BCA Cyber Security — Jain University, Bengaluru
 - **Learning platform:** TryHackMe
-- **Goal:** Build practical skills through hands-on labs, revision, and documented projects.
-- **Current focus:** Networking, Linux/Kali, packet analysis, Windows/PowerShell, Active Directory, and security fundamentals.
+- **Career goal:** Develop practical skills for a Junior SOC Analyst / entry-level cybersecurity role.
+- **Interests:** Networking, Linux, Windows, packet analysis, Active Directory, security tools, and Python.
 
-## Progress
+## Current Learning Progress
 
-### Networking
-**Studied**
-- Private/public IP addresses, ports, DNS, ARP, DHCP, NAT
-- TCP vs. UDP, HTTP/HTTPS, introductory TLS concepts
-
-**To practise**
-- [ ] Subnetting and routing
-- [ ] Review common ports and protocols
-- [ ] Analyze traffic in Wireshark
-- [ ] Practise packet capture and filtering with tcpdump
+### Networking Fundamentals
+- [x] Private vs. public IP addresses
+- [x] Ports and common services
+- [x] DNS, ARP, DHCP, and NAT
+- [x] TCP vs. UDP
+- [x] HTTP/HTTPS and introductory TLS concepts
+- [ ] Subnetting and routing practice
+- [ ] More packet-analysis exercises using Wireshark and tcpdump
 
 ### Linux and Kali Linux
-**Studied**
-- Navigation and file commands: `pwd`, `ls`, `cd`, `cat`, `touch`, `mkdir`
-- File operations: `cp`, `mv`, `rm`
-- Searching and help: `find`, `grep`, `man`
-- Basic network inspection with `ip a`
-
-**To practise**
-- [ ] Permissions and ownership
+- [x] Basic terminal navigation and file commands
+- [x] `pwd`, `whoami`, `ls`, `cd`, `mkdir`, `touch`, `cat`
+- [x] Basic file operations: `cp`, `mv`, `rm`
+- [x] Introductory searching with `find` and `grep`
+- [ ] File permissions and ownership
 - [ ] Processes, services, and system logs
-- [ ] Write clear notes for each lab
 
 ### Wireshark and tcpdump
-**Studied**
-- Packet-capture basics
-- Filtering by ports and protocols
-- Introductory traffic analysis
-
-**To practise**
-- [ ] Display and capture filters
-- [ ] Count packets by protocol in sample PCAP files
-- [ ] Identify DNS, TCP, ICMP, HTTP, and TLS traffic
-- [ ] Document findings from safe sample PCAPs
+- [x] Packet-capture basics
+- [x] Basic packet-filtering concepts
+- [x] Filtering by ports and protocols
+- [ ] Practise display and capture filters
+- [ ] Count and identify protocols in sample PCAP files
+- [ ] Write short traffic-analysis reports
 
 ### Windows and PowerShell
-**Studied**
-- Basic PowerShell commands and `Get-LocalUser`
-- Comparison operator `-eq` and pattern matching with `-like`
-- Basic file and directory navigation
-
-**To practise**
-- [ ] Pipelines and object filtering
-- [ ] Loops and iterative tasks
-- [ ] PowerShell scripts
-- [ ] Event Viewer and Windows security logs
+- [x] Basic PowerShell navigation and commands
+- [x] Retrieve local accounts with `Get-LocalUser`
+- [x] Understand `-eq` and `-like`
+- [ ] Practise pipelines, filtering, and loops
+- [ ] Write small PowerShell scripts
+- [ ] Learn Event Viewer and Windows security logs
 
 ### Active Directory
-**Studied**
-- Active Directory fundamentals
-- Organizational Units (OUs), Group Policy Objects (GPOs), and SYSVOL basics
-- Introductory Kerberos, domains, trees, forests, and trusts
-
-**To practise**
-- [ ] Review authentication and trust relationships
-- [ ] Practise in an authorized lab
-- [ ] Learn common misconfigurations and defensive checks
-- [ ] Review relevant Windows event logs
+- [x] Active Directory fundamentals
+- [x] Organizational Units (OUs), Group Policy Objects (GPOs), and SYSVOL
+- [x] Introductory Kerberos, domains, trees, forests, and trusts
+- [ ] Practise concepts in a lab
+- [ ] Study common misconfigurations and defensive monitoring
 
 ### Security Fundamentals and SOC
-**Studied**
-- Introductory SOC, SIEM, logs, and triage
-- Vulnerabilities vs. exploits
-- Introductory malware and common attack concepts
+- [x] Introductory SOC and SIEM concepts
+- [x] Logs and basic alert triage
+- [x] Vulnerability vs. exploit
+- [x] Introductory malware and attack concepts
+- [ ] Practise log investigation and event correlation
+- [ ] Build incident timelines and write incident summaries
+- [ ] Complete beginner SIEM exercises
 
-**To practise**
-- [ ] Follow a structured alert-triage workflow
-- [ ] Correlate events from sample logs
-- [ ] Build an incident timeline
-- [ ] Write concise incident reports
+## Tools I Am Learning
+- **TryHackMe:** Hands-on cybersecurity learning and labs
+- **Kali Linux:** Linux and security-tool practice
+- **Wireshark / tcpdump:** Network traffic analysis
+- **Burp Suite:** Web-security learning in authorized labs
+- **PowerShell:** Windows administration and automation
+- **Python:** Programming fundamentals and small utilities
 
-### Tools and Coding
-- **Kali Linux:** beginner practice
-- **Burp Suite:** beginner web-security learning in authorized labs
-- **Python:** learning fundamentals and exploring small security utilities
-
-**To practise**
-- [ ] Build a small Python log analyzer
-- [ ] Test web security only in authorized labs
-- [ ] Document scripts and results
+## Next Priorities
+1. Revise networking fundamentals and common ports.
+2. Practise packet counts and filtering with tcpdump using sample traffic.
+3. Improve Wireshark filtering and protocol analysis.
+4. Practise PowerShell pipelines, loops, and scripts.
+5. Continue Active Directory and Windows-log learning.
+6. Keep clear notes and build one small project at a time.
 
 ## Planned Projects
 
-These are ideas, not completed projects yet. I will check them off only after I have actually built and documented them.
+These are planned projects, not completed work yet. I will update this section when each project is actually built and documented.
 
-- [ ] **Network Traffic Analysis:** Analyze a sample PCAP and summarize notable traffic.
-- [ ] **Python Log Analyzer:** Parse sample logs and highlight selected events.
-- [ ] **Security Notes:** Organize notes on networking, Linux, Windows, and security.
-- [ ] **Incident Triage Write-up:** Investigate a simulated alert and document findings.
-- [ ] **Home Lab Documentation:** Record setup, goals, observations, and lessons learned.
+- [ ] **Network Traffic Analysis:** Analyse a safe sample PCAP and explain the traffic observed.
+- [ ] **Python Log Analyzer:** Parse sample logs and flag selected events.
+- [ ] **Cybersecurity Notes:** Organize notes on networking, Linux, Windows, and security concepts.
+- [ ] **Incident Triage Write-up:** Investigate a simulated alert and record the findings.
+- [ ] **Home Lab Documentation:** Document the setup, tests, observations, and lessons learned.
 
-## Next Priorities
-1. Revise networking fundamentals.
-2. Practise tcpdump and Wireshark using sample traffic.
-3. Improve PowerShell filtering, pipelines, and loops.
-4. Continue Active Directory and Windows-log practice.
-5. Complete one small project at a time and publish a clear write-up.
+## My Learning Routine
+**Learn → Practise → Document → Revise → Build**
 
-## Learning Method
-**Learn → Practise → Take Notes → Revise → Build Projects**
+I want to improve through consistent practice, revision, and honest tracking of my progress.
 
-I am documenting my progress honestly. A topic is marked as studied when I have learned its basics; projects are marked complete only after I have actually built and documented them.
-
-## Responsible Learning
-All security testing will be limited to systems I own or have explicit permission to test, including training labs and intentionally vulnerable environments. I will not publish passwords, API keys, personal data, or private organizational logs.
+## Responsible and Safe Practice
+I will test only systems I own or have explicit permission to assess, including training labs and intentionally vulnerable environments. I will never commit passwords, API keys, personal data, or private organizational logs to this repository.
