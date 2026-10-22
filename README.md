@@ -1,12 +1,12 @@
 # My Cybersecurity Learning Path
 
-Welcome to my cybersecurity learning journey! I am documenting what I learn, the labs I practise, and the projects I build as I work toward an entry-level cybersecurity role.
+Welcome to my cybersecurity learning journey! I document what I learn, the labs I practise, and the projects I build as I work toward an entry-level cybersecurity role.
 
 ## About Me
 - **Education:** BCA Cyber Security — Jain University, Bengaluru
 - **Learning platform:** TryHackMe
 - **Career goal:** Develop practical skills for a Junior SOC Analyst / entry-level cybersecurity role.
-- **Interests:** Networking, Linux, Windows, packet analysis, Active Directory, security tools, and Python.
+- **Interests:** Networking, Linux, Windows, packet analysis, Active Directory, security tools, cryptography, and Python.
 
 ## Current Learning Progress
 
@@ -27,10 +27,17 @@ Welcome to my cybersecurity learning journey! I am documenting what I learn, the
 - [ ] File permissions and ownership
 - [ ] Processes, services, and system logs
 
+### Nmap and Reconnaissance
+- [x] Started learning common Nmap scan options
+- [x] Reviewed host discovery and basic scan concepts
+- [ ] Practise identifying scan behaviour and interpreting results in authorized labs
+- [ ] Document a safe, beginner-friendly scan and explain its output
+
 ### Wireshark and tcpdump
 - [x] Packet-capture basics
 - [x] Basic packet-filtering concepts
 - [x] Filtering by ports and protocols
+- [x] Practised introductory tcpdump source-port and protocol filters
 - [ ] Practise display and capture filters
 - [ ] Count and identify protocols in sample PCAP files
 - [ ] Write short traffic-analysis reports
@@ -59,21 +66,37 @@ Welcome to my cybersecurity learning journey! I am documenting what I learn, the
 - [ ] Build incident timelines and write incident summaries
 - [ ] Complete beginner SIEM exercises
 
+### Cryptography — Beginner
+- [x] Started learning cryptography fundamentals
+- [x] Started practising modulo with small-number examples
+- [ ] Strengthen modulo calculations and revise the basics
+- [ ] Learn how modulo is used in beginner cryptography examples
+- [ ] Study encryption, decryption, hashing, and encoding, and understand how they differ
+
 ## Tools I Am Learning
 - **TryHackMe:** Hands-on cybersecurity learning and labs
 - **Kali Linux:** Linux and security-tool practice
+- **Nmap:** Beginner network-scanning concepts in authorized labs
 - **Wireshark / tcpdump:** Network traffic analysis
 - **Burp Suite:** Web-security learning in authorized labs
 - **PowerShell:** Windows administration and automation
 - **Python:** Programming fundamentals and small utilities
 
+## Recent Revision Topics
+- Nmap scan options and host discovery
+- tcpdump protocol and port filtering
+- Networking concepts and common services
+- Active Directory structures and authentication concepts
+- Beginner cryptography and modulo
+
 ## Next Priorities
 1. Revise networking fundamentals and common ports.
-2. Practise packet counts and filtering with tcpdump using sample traffic.
+2. Continue practising tcpdump filters using sample traffic.
 3. Improve Wireshark filtering and protocol analysis.
-4. Practise PowerShell pipelines, loops, and scripts.
-5. Continue Active Directory and Windows-log learning.
-6. Keep clear notes and build one small project at a time.
+4. Revise Nmap options and interpret results in authorized labs.
+5. Practise PowerShell pipelines, loops, and scripts.
+6. Continue Active Directory and Windows-log learning.
+7. Practise modulo with small numbers before moving further into cryptography.
 
 ## Planned Projects
 
