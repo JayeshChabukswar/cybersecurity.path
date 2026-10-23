@@ -10,6 +10,7 @@ Welcome to my cybersecurity learning journey! I document what I learn, the labs 
 
 ## Certificates
 - [**TryHackMe Certificate**](certificates/THM-FCRQ0GZ6TL.pdf) — View my certificate (PDF).
+- [**Introduction to Cybersecurity — Cisco Networking Academy**](certificates/Introduction_to_Cybersecurity_certificate_jayeshchabukswar6-gmail-com_2cd14891-581b-4a1a-af68-ac4be26be15f.pdf) — Completed 18 August 2026.
 
 ## Current Learning Progress
 
