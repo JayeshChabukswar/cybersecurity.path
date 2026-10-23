@@ -66,23 +66,36 @@ Welcome to my cybersecurity learning journey! I document what I learn, the labs 
 - [ ] Build incident timelines and write incident summaries
 - [ ] Complete beginner SIEM exercises
 
+### Hashing Basics — TryHackMe
+- [x] Completed the Hashing Basics room
+- [x] Learned common hash formats and the importance of identifying the correct hash type
+- [x] Practised understanding Hashcat hash modes, including NTLM and bcrypt
+- [x] Learned about password hashing and Linux password-hash storage in `/etc/shadow`
+- [x] Learned Base64 encoding and decoding, and how they differ from hashing
+- [x] Learned file-integrity checking with SHA-256 and `sha256sum`
+- [x] Learned the purpose of HMAC for message integrity and authentication
+- [ ] Revise hash identification and practise commands in authorized training labs
+
 ### Cryptography — Beginner
 - [x] Started learning cryptography fundamentals
-- [x] Started practising modulo with small-number examples
+- [x] Practised modulo with small-number examples
+- [x] Completed TryHackMe's Public Key Cryptography Basics room
 - [ ] Strengthen modulo calculations and revise the basics
 - [ ] Learn how modulo is used in beginner cryptography examples
-- [ ] Study encryption, decryption, hashing, and encoding, and understand how they differ
+- [ ] Continue distinguishing encryption, decryption, hashing, and encoding
 
 ## Tools I Am Learning
 - **TryHackMe:** Hands-on cybersecurity learning and labs
 - **Kali Linux:** Linux and security-tool practice
 - **Nmap:** Beginner network-scanning concepts in authorized labs
 - **Wireshark / tcpdump:** Network traffic analysis
+- **Hashcat:** Learning hash identification and password-hash auditing in authorized labs
 - **Burp Suite:** Web-security learning in authorized labs
 - **PowerShell:** Windows administration and automation
 - **Python:** Programming fundamentals and small utilities
 
 ## Recent Revision Topics
+- Hashing Basics: hash types, Hashcat modes, bcrypt, Base64, file integrity, and HMAC
 - Nmap scan options and host discovery
 - tcpdump protocol and port filtering
 - Networking concepts and common services
@@ -90,13 +103,14 @@ Welcome to my cybersecurity learning journey! I document what I learn, the labs 
 - Beginner cryptography and modulo
 
 ## Next Priorities
-1. Revise networking fundamentals and common ports.
-2. Continue practising tcpdump filters using sample traffic.
-3. Improve Wireshark filtering and protocol analysis.
-4. Revise Nmap options and interpret results in authorized labs.
-5. Practise PowerShell pipelines, loops, and scripts.
-6. Continue Active Directory and Windows-log learning.
-7. Practise modulo with small numbers before moving further into cryptography.
+1. Revise hashing concepts and practise identifying common hash formats.
+2. Continue TryHackMe Cyber Security 101.
+3. Revise networking fundamentals and common ports.
+4. Continue practising tcpdump filters using sample traffic.
+5. Improve Wireshark filtering and protocol analysis.
+6. Revise Nmap options and interpret results in authorized labs.
+7. Practise PowerShell pipelines, loops, and scripts.
+8. Continue Active Directory and Windows-log learning.
 
 ## Planned Projects
 
