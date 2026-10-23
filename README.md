@@ -8,6 +8,9 @@ Welcome to my cybersecurity learning journey! I document what I learn, the labs 
 - **Career goal:** Develop practical skills for a Junior SOC Analyst / entry-level cybersecurity role.
 - **Interests:** Networking, Linux, Windows, packet analysis, Active Directory, security tools, cryptography, and Python.
 
+## Certificates
+- [**TryHackMe Certificate**](certificates/THM-FCRQ0GZ6TL.pdf) — View my certificate (PDF).
+
 ## Current Learning Progress
 
 ### Networking Fundamentals
