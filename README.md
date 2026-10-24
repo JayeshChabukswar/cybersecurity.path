@@ -80,6 +80,14 @@ Welcome to my cybersecurity learning journey! I document what I learn, the labs 
 - [x] Learned the purpose of HMAC for message integrity and authentication
 - [ ] Revise hash identification and practise commands in authorized training labs
 
+### John the Ripper — Beginner (In Progress)
+- [x] Learned the basic purpose of John the Ripper and password-hash identification
+- [x] Studied Windows NT hashes (NT hashes) and the role of the SAM database
+- [x] Learned the purpose of Linux `/etc/passwd` and `/etc/shadow`
+- [x] Learned that `unshadow` combines passwd and shadow account information for John
+- [x] Reviewed wordlist mode and Single Crack Mode, including the `username:hash` input structure
+- [ ] Finish the TryHackMe John the Ripper: The Basics room and practise the remaining exercises
+
 ### Cryptography — Beginner
 - [x] Started learning cryptography fundamentals
 - [x] Practised modulo with small-number examples
@@ -94,6 +102,7 @@ Welcome to my cybersecurity learning journey! I document what I learn, the labs 
 - **Nmap:** Beginner network-scanning concepts in authorized labs
 - **Wireshark / tcpdump:** Network traffic analysis
 - **Hashcat:** Learning hash identification and password-hash auditing in authorized labs
+- **John the Ripper:** Currently learning hash formats, wordlist mode, Single Crack Mode, and Linux password-hash workflows in TryHackMe
 - **Burp Suite:** Web-security learning in authorized labs
 - **PowerShell:** Windows administration and automation
 - **Python:** Programming fundamentals and small utilities
@@ -105,6 +114,7 @@ Welcome to my cybersecurity learning journey! I document what I learn, the labs 
 - Networking concepts and common services
 - Active Directory structures and authentication concepts
 - Beginner cryptography and modulo
+- John the Ripper: NT hashes, `/etc/passwd`, `/etc/shadow`, `unshadow`, wordlist mode, and Single Crack Mode
 
 ## Next Priorities
 1. Revise hashing concepts and practise identifying common hash formats.
