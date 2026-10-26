@@ -1,145 +1,45 @@
-# My Cybersecurity Learning Path
+# Cybersecurity Learning Journal
 
-Welcome to my cybersecurity learning journey! I document what I learn, the labs I practise, and the projects I build as I work toward an entry-level cybersecurity role.
+My ongoing record of cybersecurity study, hands-on labs, notes, and projects. Entries reflect what I have actually studied; planned work is labelled clearly.
 
-## About Me
+## Current profile
+
 - **Education:** BCA Cyber Security — Jain University, Bengaluru
-- **Learning platform:** TryHackMe
-- **Career goal:** Develop practical skills for a Junior SOC Analyst / entry-level cybersecurity role.
-- **Interests:** Networking, Linux, Windows, packet analysis, Active Directory, security tools, cryptography, and Python.
+- **Career direction:** Junior SOC Analyst (L1), while exploring ethical hacking
+- **TryHackMe:** [xbec](https://tryhackme.com/p/xbec)
+- **Study routine:** approximately 2–3 hours a day when possible
 
-## Certificates
-- [**TryHackMe Certificate**](certificates/THM-FCRQ0GZ6TL.pdf) — View my certificate (PDF).
-- [**Introduction to Cybersecurity — Cisco Networking Academy**](certificates/Introduction_to_Cybersecurity_certificate_jayeshchabukswar6-gmail-com_2cd14891-581b-4a1a-af68-ac4be26be15f.pdf) — Completed 18 August 2026.
+## Learning progress snapshot — 26 October 2026
 
-## Current Learning Progress
+| Path / topic | Status |
+|---|---|
+| Pre Security | Completed |
+| Cyber Security 101 | 43% shown on TryHackMe |
+| SOC Level 1 | 2% shown on TryHackMe |
+| Public Key Cryptography Basics | Room completed |
+| Hashing Basics | Room completed |
+| tcpdump fundamentals | Practised |
+| John the Ripper | Learning basics |
+| Hashcat | Learning basics |
+| Nmap / Wireshark | Revising fundamentals |
 
-### Networking Fundamentals
-- [x] Private vs. public IP addresses
-- [x] Ports and common services
-- [x] DNS, ARP, DHCP, and NAT
-- [x] TCP vs. UDP
-- [x] HTTP/HTTPS and introductory TLS concepts
-- [ ] Subnetting and routing practice
-- [ ] More packet-analysis exercises using Wireshark and tcpdump
+## Daily entries
 
-### Linux and Kali Linux
-- [x] Basic terminal navigation and file commands
-- [x] `pwd`, `whoami`, `ls`, `cd`, `mkdir`, `touch`, `cat`
-- [x] Basic file operations: `cp`, `mv`, `rm`
-- [x] Introductory searching with `find` and `grep`
-- [ ] File permissions and ownership
-- [ ] Processes, services, and system logs
+- [2026-10-26 — Progress snapshot and portfolio setup](logs/2026-10-26.md)
 
-### Nmap and Reconnaissance
-- [x] Started learning common Nmap scan options
-- [x] Reviewed host discovery and basic scan concepts
-- [ ] Practise identifying scan behaviour and interpreting results in authorized labs
-- [ ] Document a safe, beginner-friendly scan and explain its output
+## Notes and certificates
 
-### Wireshark and tcpdump
-- [x] Packet-capture basics
-- [x] Basic packet-filtering concepts
-- [x] Filtering by ports and protocols
-- [x] Practised introductory tcpdump source-port and protocol filters
-- [ ] Practise display and capture filters
-- [ ] Count and identify protocols in sample PCAP files
-- [ ] Write short traffic-analysis reports
+- Certificates are stored in the `certificates/` directory.
+- Notes and write-ups should include the objective, concepts learned, commands used in an authorised lab, observations, and what I need to revise.
+- Do not publish credentials, tokens, private data, or sensitive lab answers.
 
-### Windows and PowerShell
-- [x] Basic PowerShell navigation and commands
-- [x] Retrieve local accounts with `Get-LocalUser`
-- [x] Understand `-eq` and `-like`
-- [ ] Practise pipelines, filtering, and loops
-- [ ] Write small PowerShell scripts
-- [ ] Learn Event Viewer and Windows security logs
+## Update format
 
-### Active Directory
-- [x] Active Directory fundamentals
-- [x] Organizational Units (OUs), Group Policy Objects (GPOs), and SYSVOL
-- [x] Introductory Kerberos, domains, trees, forests, and trusts
-- [ ] Practise concepts in a lab
-- [ ] Study common misconfigurations and defensive monitoring
+For each study session, record:
+1. **Studied:** room, topic, or tool.
+2. **Practised:** what I actually tried.
+3. **Learned:** 2–5 key takeaways in my own words.
+4. **Need to revise:** concepts I could not yet explain confidently.
+5. **Next step:** one realistic task for the next session.
 
-### Security Fundamentals and SOC
-- [x] Introductory SOC and SIEM concepts
-- [x] Logs and basic alert triage
-- [x] Vulnerability vs. exploit
-- [x] Introductory malware and attack concepts
-- [ ] Practise log investigation and event correlation
-- [ ] Build incident timelines and write incident summaries
-- [ ] Complete beginner SIEM exercises
-
-### Hashing Basics — TryHackMe
-- [x] Completed the Hashing Basics room
-- [x] Learned common hash formats and the importance of identifying the correct hash type
-- [x] Practised understanding Hashcat hash modes, including NTLM and bcrypt
-- [x] Learned about password hashing and Linux password-hash storage in `/etc/shadow`
-- [x] Learned Base64 encoding and decoding, and how they differ from hashing
-- [x] Learned file-integrity checking with SHA-256 and `sha256sum`
-- [x] Learned the purpose of HMAC for message integrity and authentication
-- [ ] Revise hash identification and practise commands in authorized training labs
-
-### John the Ripper — Beginner (In Progress)
-- [x] Learned the basic purpose of John the Ripper and password-hash identification
-- [x] Studied Windows NT hashes (NT hashes) and the role of the SAM database
-- [x] Learned the purpose of Linux `/etc/passwd` and `/etc/shadow`
-- [x] Learned that `unshadow` combines passwd and shadow account information for John
-- [x] Reviewed wordlist mode and Single Crack Mode, including the `username:hash` input structure
-- [ ] Finish the TryHackMe John the Ripper: The Basics room and practise the remaining exercises
-
-### Cryptography — Beginner
-- [x] Started learning cryptography fundamentals
-- [x] Practised modulo with small-number examples
-- [x] Completed TryHackMe's Public Key Cryptography Basics room
-- [ ] Strengthen modulo calculations and revise the basics
-- [ ] Learn how modulo is used in beginner cryptography examples
-- [ ] Continue distinguishing encryption, decryption, hashing, and encoding
-
-## Tools I Am Learning
-- **TryHackMe:** Hands-on cybersecurity learning and labs
-- **Kali Linux:** Linux and security-tool practice
-- **Nmap:** Beginner network-scanning concepts in authorized labs
-- **Wireshark / tcpdump:** Network traffic analysis
-- **Hashcat:** Learning hash identification and password-hash auditing in authorized labs
-- **John the Ripper:** Currently learning hash formats, wordlist mode, Single Crack Mode, and Linux password-hash workflows in TryHackMe
-- **Burp Suite:** Web-security learning in authorized labs
-- **PowerShell:** Windows administration and automation
-- **Python:** Programming fundamentals and small utilities
-
-## Recent Revision Topics
-- Hashing Basics: hash types, Hashcat modes, bcrypt, Base64, file integrity, and HMAC
-- Nmap scan options and host discovery
-- tcpdump protocol and port filtering
-- Networking concepts and common services
-- Active Directory structures and authentication concepts
-- Beginner cryptography and modulo
-- John the Ripper: NT hashes, `/etc/passwd`, `/etc/shadow`, `unshadow`, wordlist mode, and Single Crack Mode
-
-## Next Priorities
-1. Revise hashing concepts and practise identifying common hash formats.
-2. Continue TryHackMe Cyber Security 101.
-3. Revise networking fundamentals and common ports.
-4. Continue practising tcpdump filters using sample traffic.
-5. Improve Wireshark filtering and protocol analysis.
-6. Revise Nmap options and interpret results in authorized labs.
-7. Practise PowerShell pipelines, loops, and scripts.
-8. Continue Active Directory and Windows-log learning.
-
-## Planned Projects
-
-These are planned projects, not completed work yet. I will update this section when each project is actually built and documented.
-
-- [ ] **Network Traffic Analysis:** Analyse a safe sample PCAP and explain the traffic observed.
-- [ ] **Python Log Analyzer:** Parse sample logs and flag selected events.
-- [ ] **Cybersecurity Notes:** Organize notes on networking, Linux, Windows, and security concepts.
-- [ ] **Incident Triage Write-up:** Investigate a simulated alert and record the findings.
-- [ ] **Home Lab Documentation:** Document the setup, tests, observations, and lessons learned.
-
-## My Learning Routine
-**Learn → Practise → Document → Revise → Build**
-
-I want to improve through consistent practice, revision, and honest tracking of my progress.
-
-## Responsible and Safe Practice
-I will test only systems I own or have explicit permission to assess, including training labs and intentionally vulnerable environments. I will never commit passwords, API keys, personal data, or private organizational logs to this repository.
+*This repository is a learning journal, not a claim of professional experience.*
