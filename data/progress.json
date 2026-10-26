@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-10-26",
+  "profile": {
+    "github": "JayeshChabukswar",
+    "tryhackme": "xbec",
+    "career_goal": "SOC Analyst L1"
+  },
+  "tryhackme": {
+    "tracking_mode": "manual",
+    "profile_url": "https://tryhackme.com/p/xbec",
+    "paths": [
+      {
+        "name": "Pre Security",
+        "status": "completed",
+        "progress_percent": 100,
+        "verified_on": "2026-10-26"
+      },
+      {
+        "name": "Cyber Security 101",
+        "status": "in_progress",
+        "progress_percent": 43,
+        "verified_on": "2026-10-26"
+      },
+      {
+        "name": "SOC Level 1",
+        "status": "in_progress",
+        "progress_percent": 2,
+        "verified_on": "2026-10-26"
+      }
+    ],
+    "completed_rooms": [
+      {
+        "name": "Public Key Cryptography Basics",
+        "completed_on": null
+      },
+      {
+        "name": "Hashing Basics",
+        "completed_on": null
+      }
+    ]
+  },
+  "learning_log": [
+    {
+      "date": "2026-10-26",
+      "file": "logs/2026-10-26.md",
+      "topics": [
+        "Public key cryptography",
+        "Hashing",
+        "tcpdump",
+        "John the Ripper",
+        "Nmap",
+        "Wireshark"
+      ]
+    }
+  ],
+  "projects": [],
+  "github_activity": {
+    "tracking_mode": "selected_repositories",
+    "repositories": [
+      "JayeshChabukswar/JayeshChabukswar.github.io",
+      "JayeshChabukswar/cybersecurity.path"
+    ],
+    "last_checked": null
+  },
+  "streak": {
+    "calculation": "consecutive_dates_with_learning_records",
+    "current_days": null
+  }
+}
