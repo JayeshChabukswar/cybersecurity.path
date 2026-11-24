@@ -9,22 +9,23 @@ My ongoing record of cybersecurity study, hands-on labs, notes, and projects. En
 - **TryHackMe:** [xbec](https://tryhackme.com/p/xbec)
 - **Study routine:** approximately 2–3 hours a day when possible
 
-## Learning progress snapshot — 26 October 2026
+## Learning progress — 24 November 2026
 
 | Path / topic | Status |
 |---|---|
 | Pre Security | Completed |
-| Cyber Security 101 | 43% shown on TryHackMe |
-| SOC Level 1 | 2% shown on TryHackMe |
+| Cyber Security 101 | 43% shown on 26 October 2026 (not refreshed) |
+| SOC Level 1 | 2% shown on 26 October 2026 (not refreshed) |
 | Public Key Cryptography Basics | Room completed |
 | Hashing Basics | Room completed |
 | tcpdump fundamentals | Practised |
-| John the Ripper | Learning basics |
+| John the Ripper Basics | Room completed on 24 November 2026 |
 | Hashcat | Learning basics |
 | Nmap / Wireshark | Revising fundamentals |
 
 ## Daily entries
 
+- [2026-11-24 — John the Ripper Basics completed](logs/2026-11-24.md)
 - [2026-10-26 — Progress snapshot and portfolio setup](logs/2026-10-26.md)
 
 ## Notes and certificates
